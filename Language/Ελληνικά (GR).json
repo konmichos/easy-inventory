@@ -1,0 +1,152 @@
+﻿{
+    "Generic": {
+        "GenericError": "Σφάλμα",
+        "LabelSearch": "Αναζήτηση:",
+        "ClearSearchBtn": "Εκκαθάριση",
+        "AddBtn": "Προσθήκη",
+        "EditBtn": "Επεξεργασία",
+        "DelBtn": "Διαγραφή"
+    },
+
+    "MainWindow": {
+        "MainWindowCustomers": "Πελάτες",
+        "MainWindowWarehouse": "Αποθήκη Υλικών",
+        "MainWindowSales": "Πωλήσεις",
+        "MainWindowPayments": "Πληρωμές",
+        "MainWindowSettings": "Ρυθμίσεις"
+    },
+    "CustomerWindow": {
+        "ErrorLoadingCustomers": "Σφάλμα κατα τη φόρτωση πελατών: ",
+        "DelCustomerConfirmation": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον πελάτη;",
+        "DelCustomerQuestion": "Διαγραφή Πελάτη;",
+
+        "cDGVName": "Όνομα Πελάτη",
+        "cDGVPrimaryPhone": "Κύριο Τηλέφωνο",
+        "cDGVSecondaryPhone": "Δευτ. Τηλέφωνο",
+        "cDGVEmail": "Ηλ. Ταχυδρομείο",
+        "cDGVNotes": "Σημειώσεις"
+    },
+
+    "WarehouseWindow": {
+        "ErrorLoadingWarehouse": "Σφάλμα κατά τη φόρτωση αποθήκης: ",
+        "DelWarehouseConfirmation": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το υλικό;",
+        "DelItemQuestion": "Διαγραφή υλικού;",
+
+        "wDGVName": "Ονομασία Υλικού",
+        "wDGVDescription": "Περιγραφή",
+        "wDGVQuantity": "Ποσότητα",
+        "wDGVPrice": "Τιμή",
+        "wDGVBarcode": "Κωδικός προϊόντος/Barcode"
+    },
+
+    "SalesWindow": {
+        "ErrorLoadingSales": "Πρόβλημα κατα τη φόρτωση πωλήσεων: ",
+        "DelSalesConfirmation": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την πώληση;",
+        "DelSalesQuestion": "Διαγραφή πώλησης;",
+
+        "sDGVName": "Πελάτης",
+        "sDGVItem": "Προϊόν",
+        "sDGVQuantitySold": "Τεμάχια Πώλησης",
+        "sDGVItemPrice": "Τιμή Υλικού",
+        "sDGVTotalPrice": "Τελική Τιμή",
+        "sDGVSaleDate": "Ημερομηνία Πώλησης"
+    },
+
+    "PaymentsWindow": {
+        "ErrorLoadingPayments": "Σφάλμα κατα τη φόρτωση πληρωμών: ",
+        "DelPaymentsConfirmation": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την πληρωμή;",
+        "DelPaymentsQuestion": "Διαγραφή Πληρωμής;",
+
+        "pDGVName": "Πελάτης",
+        "pDGVAmount": "Χρηματικό Ποσό (€)",
+        "pDGVPaymentDate": "Ημερομηνία Πληρωμής"
+    },
+
+    "SettingsWindow": {
+        "SettingsAutoBackupLabel": "Αυτόματο Αντίγραφο:",
+        "SettingsBackupNowLabel": "Αντίγραφο Τώρα:",
+        "SettingsExportToExcelLabel": "Εξαγωγή σε Excel:",
+        "SettingsLastBackupLabel": "Τελευταίο Αντίγραφο:",
+        "SettingsLanguageLabel": "Γλώσσα:",
+        "SettingsBackupNowBtn": "Δημιουργία",
+        "SettingsExportToExcelBtn": "Εξαγωγή",
+        "SettingsSaveSettingsBtn": "Αποθήκευση Ρυθμίσεων",
+        "SettingsDefaulDateTime": "yyyy-MM-dd HH:mm:ss",
+        "SettingsDefaultLastBackup": "1970-01-01 00:00:00",
+        "SettingsDefaultLastBackupReplacement": "Ποτέ",
+        "SettingsDefaultBackupFrequency": "Όχι",
+        "SettingsAutoBackupDaily": "Ημερησίως",
+        "SettingsAutoBackupWeekly": "Εβδομαδιαία",
+        "SettingsAutoBackupMonthly": "Μηνιαία",
+        "SettingsSavedSuccess": "Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία!",
+        "SettingsSuccess": "Επιτυχία",
+        "SettingsSuccessfulBackup": "Η δημιουργία αντιγράφου ήταν επιτυχής: ",
+        "SettingsBackup": "Αντίγραφο",
+        "SettingsErrorDatabaseFileNotFound": "Το αρχείο βάσης δεδομένων δεν βρέθηκε. Δεν μπορεί να γίνει αντίγραφο ασφαλείας τώρα.",
+        "SettingsErrorBackup": "Σφάλμα κατά τη δημιουργία αντιγράφου ασφαλείας: ",
+        "SettingsExcelSummary": "Σύνοψη",
+        "SettingsExcelSalesData": "Δεδομένα Πωλήσεων:",
+        "SettingsExcelPaymentsData": "Δεδομένα Πληρωμών:",
+        "SettingsExcelTotalSales": "Συνολικές Πωλήσεις:",
+        "SettingsExcelPayments": "Πληρωμές:",
+        "SettingsExcelUnpaidAmount": "Ανεξόφλητο Ποσό:",
+        "SettingsExcelPercentagePaid": "Ποσοστό Εξόφλησης:",
+        "SettingsDataExportedSuccess": "Η εξαγωγή δεδομένων στο Excel ολοκληρώθηκε με επιτυχία.",
+        "SettingsDataExportComplete": "Η Εξαγωγή Ολοκληρώθηκε",
+        "SettingsRestartApplication": "Είναι απαραίτητη η επανεκκίνηση της εφαρμογής για να αλλάξει η γλώσσα, θα θέλατε να γίνει τώρα;",
+        "SettingsRestartQuestion": "Επανεκκίνηση εφαρμογής τώρα;"
+    },
+    "PopupForm": {
+        "PopupAddBtn": "Προσθήκη",
+        "PopupSaveBtn": "Αποθήκευση",
+
+        "CustomersLabel1": "Όνομα",
+        "CustomersLabel2": "Κύριο Τηλέφωνο",
+        "CustomersLabel3": "Δευτ. Τηλέφωνο",
+        "CustomersLabel4": "Ηλ. Ταχυδρομείο",
+        "CustomersLabel5": "Σημειώσεις",
+        "CustomersLabel6New": "Νέος Πελάτης",
+        "CustomersLabel6Edit": "Επεξεργασία Πελάτη",
+
+        "WarehouseLabel1": "Ονομασία Υλικού",
+        "WarehouseLabel2": "Περιγραφή",
+        "WarehouseLabel3": "Ποσότητα",
+        "WarehouseLabel4": "Τιμή",
+        "WarehouseLabel5": "Κωδικός προϊόντος/Barcode",
+        "WarehouseLabel6New": "Νέο Υλικό",
+        "WarehouseLabel6Edit": "Επεξεργασία Υλικού",
+
+        "SalesLabel1": "Πελάτης",
+        "SalesLabel2": "Προϊόν",
+        "SalesLabel3": "Τεμάχια Πώλησης",
+        "SalesLabel4": "Τιμή Υλικού",
+        "SalesLabel5": "Ημερομηνία Πώλησης",
+        "SalesLabel7": "Τελική Τιμή",
+        "SalesLabel6New": "Νέα Πώληση",
+        "SalesLabel6Edit": "Επεξεργασία Πώλησης",
+
+        "PaymentsLabel1": "Πελάτης",
+        "PaymentsLabel2": "Χρηματικό Ποσό (€)",
+        "PaymentsLabel3": "Ημερομηνία Πληρωμής",
+        "PaymentsLabel6New": "Νέα Πληρωμή",
+        "PaymentsLabel6Edit": "Επεξεργασία Πληρωμής",
+
+        "ValidationError": "Σφάλμα Επικύρωσης",
+        "CustomersRequired": "Όνομα και Κύριο Τηλέφωνο είναι απαραίτητα!",
+        "WarehouseRequired": "Ονομασία Υλικού και Τιμή είναι απαραίτητα!",
+        "SalesRequired": "Όλα τα πεδία πρέπει να συμπληρωθούν.",
+        "PaymentsRequired": "Πελάτης και Χρηματικό Ποσό είναι απαραίτητα!"
+    },
+    "CustomerAnalysis": {
+        "CustomerAnalysisWindowTitle": "Ανάλυση Πελάτη",
+        "LabelsDGV": "Πωλήσεις Πελάτη:",
+        "LabelpDGV": "Πληρωμές Πελάτη:",
+        "LabelTotalSales": "Σύνολο Πωλήσεων:",
+        "LabelPaidAmount": "Ποσό Πληρωμής:",
+        "LabelUnpaidBalance": "Ανεξόφλητο Ποσό:",
+        "LabelPaidPercentage": "Ποσοστό Εξόφλησης:",
+        "CustomerNotFoundInSales": "Ο πελάτης δεν βρέθηκε σε πωλήσεις.",
+        "CustomerNotFoundInPayments": "Ο πελάτης δεν βρέθηκε σε πληρωμές.",
+        "LabelOverpaidAmount": "Πλεονάζον Ποσό"
+    }
+}

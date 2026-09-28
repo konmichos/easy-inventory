@@ -1,0 +1,152 @@
+{
+    "Generic": {
+        "GenericError": "Error",
+        "LabelSearch": "Search:",
+        "ClearSearchBtn": "Clear",
+        "AddBtn": "Add New",
+        "EditBtn": "Edit Existing",
+        "DelBtn": "Delete"
+    },
+
+    "MainWindow": {
+        "MainWindowCustomers": "Customers",
+        "MainWindowWarehouse": "Warehouse",
+        "MainWindowSales": "Sales",
+        "MainWindowPayments": "Payments",
+        "MainWindowSettings": "Settings"
+    },
+    "CustomerWindow": {
+        "ErrorLoadingCustomers": "Error loading customers: ",
+        "DelCustomerConfirmation": "Are you sure you want to delete this customer?",
+        "DelCustomerQuestion": "Delete Customer?",
+
+        "cDGVName": "Customer Name",
+        "cDGVPrimaryPhone": "Primary Phone",
+        "cDGVSecondaryPhone": "Secondary Phone",
+        "cDGVEmail": "Email",
+        "cDGVNotes": "Notes"
+    },
+
+    "WarehouseWindow": {
+        "ErrorLoadingWarehouse": "Error loading warehouse: ",
+        "DelWarehouseConfirmation": "Are you sure you want to delete this item?",
+        "DelItemQuestion": "Delete Item?",
+
+        "wDGVName": "Item Name",
+        "wDGVDescription": "Description",
+        "wDGVQuantity": "Quantity",
+        "wDGVPrice": "Price",
+        "wDGVBarcode": "SKU/Barcode"
+    },
+
+    "SalesWindow": {
+        "ErrorLoadingSales": "Error loading sales: ",
+        "DelSalesConfirmation": "Are you sure you want to delete this sale?",
+        "DelSalesQuestion": "Delete Sale?",
+
+        "sDGVName": "Customer",
+        "sDGVItem": "Item",
+        "sDGVQuantitySold": "Quantity Sold",
+        "sDGVItemPrice": "Item Price",
+        "sDGVTotalPrice": "Total Price",
+        "sDGVSaleDate": "Sale Date"
+    },
+
+    "PaymentsWindow": {
+        "ErrorLoadingPayments": "Error loading payments: ",
+        "DelPaymentsConfirmation": "Are you sure you want to delete this payment?",
+        "DelPaymentsQuestion": "Delete Payment?",
+
+        "pDGVName": "Customer",
+        "pDGVAmount": "Paid Amount (€)",
+        "pDGVPaymentDate": "Payment Date"
+    },
+
+    "SettingsWindow": {
+        "SettingsAutoBackupLabel": "Automatic Backup:",
+        "SettingsBackupNowLabel": "Backup Now:",
+        "SettingsExportToExcelLabel": "Export to Excel:",
+        "SettingsLastBackupLabel": "Last Backup:",
+        "SettingsLanguageLabel": "Language:",
+        "SettingsBackupNowBtn": "Create",
+        "SettingsExportToExcelBtn": "Export",
+        "SettingsSaveSettingsBtn": "Save Settings",
+        "SettingsDefaulDateTime": "yyyy-MM-dd HH:mm:ss",
+        "SettingsDefaultLastBackup": "1970-01-01 00:00:00",
+        "SettingsDefaultLastBackupReplacement": "Never",
+        "SettingsDefaultBackupFrequency": "No",
+        "SettingsAutoBackupDaily": "Daily",
+        "SettingsAutoBackupWeekly": "Weekly",
+        "SettingsAutoBackupMonthly": "Monthly",
+        "SettingsSavedSuccess": "Settings Saved Successfully!",
+        "SettingsSuccess": "Success",
+        "SettingsSuccessfulBackup": "Backup successful: ",
+        "SettingsBackup": "Backup",
+        "SettingsErrorDatabaseFileNotFound": "Database file not found. Cannot perform backup.",
+        "SettingsErrorBackup": "An error occurred while creating backup: ",
+        "SettingsExcelSummary": "Summary",
+        "SettingsExcelSalesData": "Sales Data:",
+        "SettingsExcelPaymentsData": "Payments Data:",
+        "SettingsExcelTotalSales": "Total Sales:",
+        "SettingsExcelPayments": "Payments:",
+        "SettingsExcelUnpaidAmount": "Unpaid Amount:",
+        "SettingsExcelPercentagePaid": "Percentage Paid:",
+        "SettingsDataExportedSuccess": "Data exported successfully to Excel.",
+        "SettingsDataExportComplete": "Export Complete",
+        "SettingsRestartApplication": "An application restart is required to change the current language, do you want to restart it now?",
+        "SettingsRestartQuestion": "Restart application now?"
+    },
+    "PopupForm": {
+        "PopupAddBtn": "Add",
+        "PopupSaveBtn": "Save",
+
+        "CustomersLabel1": "Name",
+        "CustomersLabel2": "Main Phone",
+        "CustomersLabel3": "Secondary Phone",
+        "CustomersLabel4": "Email",
+        "CustomersLabel5": "Notes",
+        "CustomersLabel6New": "New Customer",
+        "CustomersLabel6Edit": "Edit Customer",
+
+        "WarehouseLabel1": "Item Name",
+        "WarehouseLabel2": "Description",
+        "WarehouseLabel3": "Quantity",
+        "WarehouseLabel4": "Price",
+        "WarehouseLabel5": "SKU/Barcode",
+        "WarehouseLabel6New": "New Item",
+        "WarehouseLabel6Edit": "Edit Item",
+
+        "SalesLabel1": "Customer",
+        "SalesLabel2": "Item",
+        "SalesLabel3": "Quantity Sold",
+        "SalesLabel4": "Item Price",
+        "SalesLabel5": "Sale Date",
+        "SalesLabel7": "Total Price",
+        "SalesLabel6New": "New Sale",
+        "SalesLabel6Edit": "Edit Sale",
+
+        "PaymentsLabel1": "Customer",
+        "PaymentsLabel2": "Amount (€)",
+        "PaymentsLabel3": "Payment Date",
+        "PaymentsLabel6New": "New Payment",
+        "PaymentsLabel6Edit": "Edit Payment",
+       
+        "ValidationError": "Validation Error",
+        "CustomersRequired": "Name and number are required!",
+        "WarehouseRequired": "Item name and price are required!",
+        "SalesRequired": "All fields must be filled.",
+        "PaymentsRequired": "Customer and payment amount are required!"
+    },
+    "CustomerAnalysis": {
+        "CustomerAnalysisWindowTitle": "Customer Analysis",
+        "LabelsDGV": "Customer's Sales:",
+        "LabelpDGV": "Customer's Payments:",
+        "LabelTotalSales": "Total Sales:",
+        "LabelPaidAmount": "Paid Amount:",
+        "LabelUnpaidBalance": "UnpaidBalance:",
+        "LabelPaidPercentage": "Paid Percentage:",
+        "CustomerNotFoundInSales": "Customer not found in sales.",
+        "CustomerNotFoundInPayments": "Customer not found in payments.",
+        "LabelOverpaidAmount": "Overpaid Amount"
+    }
+}
