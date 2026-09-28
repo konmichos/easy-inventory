@@ -12,7 +12,6 @@
 		<Copyright>Konstantinos Michos</Copyright>
 		<PackageIcon>Main Icon.png</PackageIcon>
 		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
-		<PublishSingleFile>true</PublishSingleFile>
 		<DebugType>none</DebugType>
 		<DebugSymbols>false</DebugSymbols>
 	</PropertyGroup>
